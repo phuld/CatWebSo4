@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url('../font/flarelightgothicitalic.ttf');
+    font-family: flare;
+}
+@font-face {
+    src: url('../font/colaborate-light.ttf');
+    font-family: colaborate;
+}
+@font-face {
+    src: url('../font/Freeport\ Plain.ttf');
+    font-family: freeport;
+}
+@font-face {
+    src: url('../font/FRABK.TTF');
+    font-family: franklin;
+}
+
+@font-face{
+    src: url('../font/Chunk\ Five\ Print.ttf');
+    font-family: chunkfive;
+}
+
+@font-face {
+    src: url('../font/AlexandriaFLF.ttf');
+    font-family: flf;
+}
+
+@font-face {
+    src: url('../font/AlexandriaFLF-Bold.ttf');
+    font-family: flfbold;
+}
+
+@font-face {
+    src: url('../font/ColabThi.otf');
+    font-family: colabthin;
+}
+
+@font-face {
+    src: url('../font/ColabMed.otf');
+    font-family: colabmedium;
+}
+
+@font-face {
+    src: url('../font/CONTRA__.ttf');
+    font-family: contra;
+}
+@font-face {
+    src: url('../font/ColabReg.otf');
+    font-family: colaboratereg;
+}
+/* Wrapper */
+.wrapper {
+
+background: url(../images/background.png) repeat-x;
+
+padding-top: 37px;
+}
+
+/* Header */
+.header {
+
+}
+
+.header .logo {
+
+position: relative;
+}
+
+.header .logo img {
+
+float: left;
+}
+
+.header .logo .text {
+    position: absolute;
+    left: 7px;
+    top: 4px;
+}
+
+.header .logo .title {
+
+color: white;
+
+font-size: 39px;
+
+transform: translate3d(5px,-11px,0);
+
+font-family: flare;
+}
+
+.header .logo p {
+
+color: white;
+
+font-size: 17px;
+
+font-family: franklin;
+
+transform: translate3d(42px,-21px,0);
+}
+
+.header .menu {
+
+}
+
+.header .menu ul {
+
+margin-left: 140px;
+
+transform: translateY(-21px);
+}
+
+.header .menu ul li {
+
+margin: 0 20px;
+
+height: 30px;
+
+display: flex;
+
+align-items: center;
+}
+
+.header .menu ul li.active {
+    background: #d2d2d6;
+    border-radius: 5px;
+}
+
+.header .menu ul li.active a {
+    color: black!important;
+}
+
+.header .menu ul li a {
+
+font-family: colaborate;
+
+color: #d7d7e3!important;
+
+font-size: 17px;
+}
+
+/* Slider */
+.slider {
+
+}
+
+.slider .carousel-inner {
+
+}
+
+.slider .carousel-inner .carousel-item {
+    
+}
+
+.slider .carousel-inner .carousel-item .leftslider .textbig {
+    
+font-family: chunkfive;
+    
+font-size: 45px;
+    
+color: #e7e8ea;
+    
+text-transform: uppercase;
+}
+
+.slider .carousel-inner .carousel-item .leftslider .textmedium {
+    
+color: #d7d7e3;
+    
+font-size: 39px;
+    
+font-family: flf;
+    
+transform: translateY(-15px);
+}
+
+.slider .carousel-inner .carousel-item .leftslider .textmedium span {
+    font-family: flfbold;
+}
+
+.slider .carousel-inner .carousel-item .leftslider .textsmall {
+    
+color: #e7e8ea;
+    
+width: 50%;
+    
+font-family: colabthin;
+    
+float: right;
+    
+font-size: 23px;
+    
+transform: translateY(-20px);
+}
+
+.slider .carousel-inner .carousel-item .leftslider .nut {
+    
+float: right;
+    
+width: 100%;
+    
+margin-top: 0px;
+}
+
+.slider .carousel-inner .carousel-item .leftslider .button_shadow img {
+    margin-top: 20px;
+}
+
+.slider .carousel-inner .carousel-item .leftslider .nut button {
+    padding: 5px 35px;
+    font-family: colabmedium;
+    font-size: 23px;
+    color: white;
+    background-image: linear-gradient(#2d6ac1,#174385);
+    border: none;
+    border-radius: 5px;
+}
+
+.slider .carousel-inner .carousel-item .leftslider {
+    
+text-align: right;
+    
+padding-top: 45px;
+}
+
+.slider .carousel-inner .carousel-item .rightslider {
+    
+padding-left: 30px;
+}
+
+
+.slider .nuttrai {
+
+}
+
+.slide .nutphai {
+
+}
+
+/* Category */
+.category {
+    background: #dfe0e3;
+}
+
+/* News */
+.news {
+
+padding-top: 45px;
+
+background: #dfe0e3;
+}
+.news .col-sm-4 {
+
+}
+
+.news .col-sm-4 .title {
+
+}
+
+.news .col-sm-4 .title .row .col-sm-2 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right;
+}
+
+.news .col-sm-4 .title .row .col-sm-10 {
+    padding-left: 5px;
+    transform: translateY(-7px);
+}
+
+.news .col-sm-4 .title img {
+
+}
+
+.news .col-sm-4 .title h3 {
+
+font-family: colaborate;
+
+color: #505050;
+
+font-size: 25px;
+
+margin-bottom: 0;
+}
+
+.news .col-sm-4 .title p {
+
+color: #5f7390;
+
+font-size: 15px;
+
+transform: translateY(-5px);
+}
+
+.news .col-sm-4 .content {
+
+color: #505050;
+
+font-size: 14px;
+
+text-align: justify;
+
+padding-left: 15px;
+
+padding-right: 15px;
+
+margin-bottom: 45px;
+}
+
+.news .paragraph {
+
+width: 50%;
+
+margin: auto;
+
+font-family: contra;
+
+font-size: 16px;
+
+color: #828181;
+
+text-align: center;
+}
+
+/* Detail */
+.detail {
+
+background: #dfe0e3;
+
+padding-top: 50px;
+}
+
+.detail .topdetail {
+
+text-align: center;
+}
+
+.detail .topdetail h3 {
+
+font-family: colaborate;
+
+color: #505050;
+
+font-size: 27px;
+
+margin-bottom: 0;
+}
+
+.detail .topdetail p {
+
+font-size: 15px;
+
+font-family: colaborate;
+
+color: #5f7390;
+
+transform: translate3d(-115px,-9px,0);
+}
+
+.detail .middledetail {
+
+position: relative;
+}
+
+.detail .middledetail .col-sm-5 {
+
+text-align: right;
+}
+
+.detail .middledetail .col-sm-7 {
+
+padding-top: 40px;
+}
+
+.detail .middledetail .col-sm-7 ul {
+
+}
+
+.detail .middledetail .col-sm-7 ul li {
+
+list-style: none;
+
+font-family: colaborate;
+
+color: #828181;
+
+padding-bottom: 10px;
+
+font-size: 15px;
+}
+
+.detail .middledetail .col-sm-7 ul li img {
+    margin-right: 10px;
+}
+
+.detail .middledetail .readmore, .detail .middledetail .download {
+
+transform: translate3d(500px,-20px,0);
+
+font-family: colaboratereg;
+
+font-size: 19px;
+
+color: white;
+
+background: #2154a0;
+
+border: none;
+
+padding: 2px 15px;
+
+border-radius: 5px;
+}
+
+.detail .middledetail .readmore {
+    margin-right: 40px;
+}
+
+.detail .middledetail .download {
+
+}
+
+.detail .bottomdetail {
+
+padding-top: 30px;
+}
+
+.detail .bottomdetail ul {
+
+padding-left: 58px;
+}
+
+.detail .bottomdetail ul li {
+
+font-family: colaborate;
+
+list-style: none;
+
+font-size: 15px;
+
+color: #828181;
+
+padding: 7px 0;
+
+border-bottom: 1px solid #d7d8da;
+}
+
+.detail .bottomdetail ul li:first-child {
+    border-top: 1px solid #d7d8da;
+}
+
+.detail .bottomdetail ul li img {
+    margin-right: 10px;
+}
+
